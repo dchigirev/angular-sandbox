@@ -1,0 +1,11 @@
+<div class="layout" [class.layout--debug]="debug.isDebug()">
+  <div class="layout__side">
+    <ng-content select="[layout-side]"></ng-content>
+  </div>
+
+  <div class="layout__content">
+    <div>
+      <ng-content select="[layout-content]"></ng-content>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="layout" [class.layout--debug]="debug.isDebug()">
+  <div class="layout__header">
+    <ng-content select="[layout-header]"></ng-content>
+  </div>
+
+  <div class="layout__content">
+    <ng-content select="[layout-content]"></ng-content>
+  </div>
+
+  <div class="layout__footer">
+    <ng-content select="[layout-footer]"></ng-content>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+
+  &__header {
+  }
+
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__footer {
+  }
+
+  &--debug {
+    background-color: blue;
+    .layout__header, .layout__content, .layout__footer {
+      background-color: skyblue;
+    }
+  }
+}
