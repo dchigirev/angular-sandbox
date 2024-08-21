@@ -3,15 +3,15 @@ import { HeaderLayoutComponent } from '../../shared/layouts/header-layout/header
 import { PageLayoutComponent } from '../../shared/layouts/page-layout/page-layout.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-contacts',
   standalone: true,
   imports: [
     PageLayoutComponent,
     HeaderLayoutComponent
   ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: './contacts.component.html',
+  styleUrl: './contacts.component.scss'
 })
-export class HomeComponent {
+export class ContactsComponent {
 
 }

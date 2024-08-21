@@ -1,0 +1,7 @@
+<div class="navigation">
+  @for (item of items; track item) {
+    <a class="item" [routerLink]="item.routerLink" routerLinkActive="active">
+      {{ item.label }}
+    </a>
+  }
+</div>

@@ -1,0 +1,14 @@
+.navigation {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.item {
+  cursor: pointer;
+  display: block;
+  &.active {
+    font-weight: 600;
+  }
+}

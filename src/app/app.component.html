@@ -1,21 +1,23 @@
 <app-page-layout>
-  <ng-container layout-header>
+  <div layout-header>
     <app-header-layout>
-      <ng-container layout-title>
-        <h3>Danil Chigirev</h1>
-      </ng-container>
-      <ng-container layout-content>
+      <div layout-title>
+        <app-logo></app-logo>
+      </div>
+      <div layout-content>
         <div (click)="debug.toggle()">Debugging: {{ debug.isDebug() }}</div>
-      </ng-container>
+      </div>
     </app-header-layout>
-  </ng-container>
-  <ng-container layout-content>
+  </div>
+  <div layout-content>
     <app-side-nav-layout>
-      <ng-container layout-side> Navigation </ng-container>
-      <ng-container layout-content>
+      <div layout-side>
+        <app-navigation [items]="navigationItems"></app-navigation>
+      </div>
+      <div layout-content>
         <router-outlet />
-      </ng-container>
+      </div>
     </app-side-nav-layout>
-  </ng-container>
-  <ng-container layout-footer> Footer </ng-container>
+  </div>
+  <!-- <div layout-footer>Footer</div> -->
 </app-page-layout>
