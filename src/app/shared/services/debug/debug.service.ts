@@ -6,8 +6,6 @@ import { Injectable, signal } from '@angular/core';
 export class DebugService {
   public isDebug = signal(false);
 
-  constructor() { }
-
   toggle(): void {
     this.isDebug.set(!this.isDebug());
   }
