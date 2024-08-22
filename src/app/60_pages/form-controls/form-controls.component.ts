@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { HeaderLayoutComponent } from '../../shared/layouts/header-layout/header-layout.component';
-import { PageLayoutComponent } from '../../shared/layouts/page-layout/page-layout.component';
+import { HeaderLayoutComponent } from '@layouts/header-layout';
+import { PageLayoutComponent } from '@layouts/page-layout';
 
 @Component({
   selector: 'app-form-controls',
