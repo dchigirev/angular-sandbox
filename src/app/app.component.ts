@@ -25,7 +25,7 @@ export class AppComponent {
   debug = inject(DebugService);
   title = 'angular-sandbox';
 
-  navigationItems: INavigationItem[] = [
+  baseNavigationItems: INavigationItem[] = [
     {
       label: "Home",
       routerLink: "home"
@@ -34,5 +34,12 @@ export class AppComponent {
       label: "Contacts",
       routerLink: "contacts"
     }
+  ];
+
+  navigationItems: INavigationItem[] = [
+    {
+      label: "Form Controls",
+      routerLink: "form-controls"
+    },
   ]
 }

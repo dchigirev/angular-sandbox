@@ -15,5 +15,12 @@ export const routes: Routes = [
         (m) => m.ContactsComponent,
       ),
   },
+  {
+    path: 'form-controls',
+    loadComponent: () =>
+      import('./pages/form-controls/form-controls.component').then(
+        (m) => m.FormControlsComponent,
+      ),
+  },
   { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
