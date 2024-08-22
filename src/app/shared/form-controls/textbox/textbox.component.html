@@ -1,0 +1,9 @@
+<p>textbox works!</p>
+<input
+  type="text"
+  [formControl]="formControl"
+  [attr.maxlength]="maxlength"
+  [placeholder]="placeholder ?? ''"
+  [attr.disabled]="disabled ? true : null"
+  (blur)="onBlur()"
+/>
