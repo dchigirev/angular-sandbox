@@ -8,7 +8,7 @@ import { AbsctractFormControl } from '../abstract-form-control';
   standalone: true,
   imports: [],
   templateUrl: './textbox.component.html',
-  styleUrl: './textbox.component.scss',
+  styleUrl: './textbox.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [
     {

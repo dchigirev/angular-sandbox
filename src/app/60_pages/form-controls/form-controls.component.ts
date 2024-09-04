@@ -10,7 +10,7 @@ import { PageLayoutComponent } from '@layouts/page-layout';
     HeaderLayoutComponent,
   ],
   templateUrl: './form-controls.component.html',
-  styleUrl: './form-controls.component.scss'
+  styleUrl: './form-controls.component.css'
 })
 export class FormControlsComponent {
 

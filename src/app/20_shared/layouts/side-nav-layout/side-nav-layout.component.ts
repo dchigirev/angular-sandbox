@@ -6,7 +6,7 @@ import { DebugService } from '../../services/debug/debug.service';
   standalone: true,
   imports: [],
   templateUrl: './side-nav-layout.component.html',
-  styleUrl: './side-nav-layout.component.scss',
+  styleUrl: './side-nav-layout.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SideNavLayoutComponent {

@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.layout__title {
+}
+
+.layout__content {
+  display: flex;
+  align-items: center;
+}
+
+.layout--debug {
+  background-color: red;
+  .layout__title, .layout__content {
+    background-color: pink;
+  }
+}

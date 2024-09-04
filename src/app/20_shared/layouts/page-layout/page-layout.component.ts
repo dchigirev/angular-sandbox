@@ -6,7 +6,7 @@ import { DebugService } from '../../services/debug/debug.service';
   standalone: true,
   imports: [],
   templateUrl: './page-layout.component.html',
-  styleUrl: './page-layout.component.scss',
+  styleUrl: './page-layout.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PageLayoutComponent {

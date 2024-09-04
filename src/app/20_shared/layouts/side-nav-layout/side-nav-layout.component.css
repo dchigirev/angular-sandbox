@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.layout__side {
+}
+
+.layout__content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.layout--debug {
+  background-color: red;
+  .layout__side, .layout__content {
+    background-color: pink;
+  }
+  .layout__content {
+    > div {
+      background-color: green;
+    }
+  }
+}

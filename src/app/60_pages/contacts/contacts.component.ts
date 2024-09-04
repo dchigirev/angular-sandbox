@@ -10,7 +10,7 @@ import { PageLayoutComponent } from '@layouts/page-layout';
     HeaderLayoutComponent
   ],
   templateUrl: './contacts.component.html',
-  styleUrl: './contacts.component.scss'
+  styleUrl: './contacts.component.css'
 })
 export class ContactsComponent {
 

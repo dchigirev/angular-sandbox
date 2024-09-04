@@ -13,7 +13,7 @@ export interface INavigationItem {
   standalone: true,
   imports: [RouterModule],
   templateUrl: './navigation.component.html',
-  styleUrl: './navigation.component.scss'
+  styleUrl: './navigation.component.css'
 })
 export class NavigationComponent {
   @Input() items: INavigationItem[] = [];

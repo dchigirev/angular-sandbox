@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  min-width: 800px;
+}
+
+.layout__header {
+}
+
+.layout__content {
+  flex-grow: 1;
+}
+
+.layout__footer {
+}
+
+.layout--debug {
+  background-color: blue;
+  .layout__header, .layout__content, .layout__footer {
+    background-color: skyblue;
+  }
+}
