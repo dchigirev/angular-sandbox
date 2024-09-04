@@ -5,7 +5,9 @@
         <app-logo></app-logo>
       </div>
       <div layout-content>
-        <div (click)="debug.toggle()">Debugging: {{ debug.isDebug() }}</div>
+        <div class="pt-4 pb-4 pr-6 pl-6" (click)="debug.toggle()">
+          Debugging: {{ debug.isDebug() }}
+        </div>
       </div>
     </app-header-layout>
   </div>
